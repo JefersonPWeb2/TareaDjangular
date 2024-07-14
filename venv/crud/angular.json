@@ -5,7 +5,17 @@
   "projects": {
     "crud": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -99,6 +109,6 @@
     }
   },
   "cli": {
-    "analytics": "0f8fb729-d8d5-4e4d-898c-dab3f9b44134"
+    "analytics": "d0865340-0777-4deb-a19f-add590b2576e"
   }
 }
